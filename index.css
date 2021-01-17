@@ -1,0 +1,91 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: #000000;
+
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    font-size: 16px;
+
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+
+    min-height: 72px;
+}
+
+.main-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1024px;
+    width: 100%;
+}
+
+.main-header__nav, .main-header__auth {
+    display: flex;
+    
+    height: 100%;
+
+}
+
+.main-header__nav-item {
+    color: #FFFFFF;
+
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.auth-status__login-button {
+    padding: 0 10px;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    border: none;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.main-header__nav-item:hover, .auth-status__login-button:hover {
+    background-color: #242424;
+
+    cursor: pointer;
+}
+
+.main-header__nav-item, .auth-status__login-button {
+    transition: background-color .3s;
+}
+
+.auth-status__login-icon g {
+    opacity: .3;
+    transition: opacity .3s;
+}
+
+.auth-status__login-button:hover g {
+    opacity: 1;
+}
