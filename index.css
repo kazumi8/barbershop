@@ -134,13 +134,37 @@ a {
     margin: 0;
 }
 
-.features__list-item-text {
-    text-align: center;
+.features__list-item-title {
+    margin-bottom: 75px;
+
+    font-size: 30px;
+    text-transform: uppercase;
+
+    position: relative;
 }
 
-.features__list-item-title {
-    font-size: 30px;
+.features__list-item-title::after {
+    content: "";
+    display: block;
+
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+
+    background-color: #F7F4F1;
+
+    position: absolute;
+    bottom: -41px;
+    left: calc(50% - 10px);
+
 }
+
+.features__list-item-text {
+    text-align: center;
+    line-height: 24px;
+}
+
+
 
 /*......................................*/
 .visually-hidden {
