@@ -7,8 +7,8 @@ body {
 
     margin: 0 auto;
 
-    background-image: url("./img/index-background.jpg");
-    background-size: 100%;
+    background-image: url("../img/index-background.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -109,6 +109,8 @@ a {
     color: #FFFFFF;
     width: 100%;
 
+    margin-bottom: 75px;
+
 }
 
 .features__list {
@@ -164,7 +166,88 @@ a {
     line-height: 24px;
 }
 
+.container__section-wrapper {
+    display: flex;
+    justify-content: space-between;
 
+    background-color: #F7F4F1;
+    background-image: url("../img/Layer-10.jpg");
+
+    padding: 50px 80px;
+
+    margin-bottom: 35px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.container__section-wrapper-item {
+    width: 320px;
+}
+
+.news-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.news-block__title {
+    margin: 0;
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.news-block__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.news-block__list-item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+}
+
+.container__section-wrapper-border {
+    width: 8px;
+    height: 278px;
+}
+
+.gallery__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.gallery__list-item-img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.swiper-container {
+    width: 100%;
+    height: 165px;
+}
+
+.gallery__button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
 
 /*......................................*/
 .visually-hidden {
@@ -176,4 +259,23 @@ a {
 	height: 1px !important; 
 	width: 1px !important; 
 	overflow: hidden;
+}
+
+.main-button {
+    border: none;
+
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    padding: 10px 5px;
 }
