@@ -278,4 +278,12 @@ a {
     text-transform: uppercase;
 
     padding: 10px 5px;
+
+    transition: .3s;
+}
+
+.main-button:hover {
+    background-color: #663D15;
+
+    cursor: pointer;
 }
