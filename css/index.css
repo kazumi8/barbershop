@@ -309,6 +309,94 @@ a {
     /*не работает*/
 }
 
+
+
+/*footer*/
+
+.main-footer {
+    background-image: url("../img/backgraund-footer.jpg"); 
+}
+
+.main-footer__wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-footer__info {
+    max-width: 337px;
+}
+
+.main-footer__info-text, .main-footer__social-text, .developers__text {
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.main-footer__info-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main-footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 5px;
+   justify-content: center;
+
+   list-style: none;
+
+   height: 43px;
+   width: 43px;
+}
+
+.main-footer__social-text {
+    margin: 0;
+}
+
+.social-list__item {
+    height: 43px;
+    width: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+}
+
+.developers__wrapper {
+    width: 140px;
+    height: 43px;
+    background-color: #000000;
+}
+
+.developers__link {
+    list-style: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+
 /*......................................*/
 .visually-hidden {
 	position: absolute !important;
