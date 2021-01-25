@@ -278,6 +278,37 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.order__form-label {
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+    text-transform: uppercase;
+}
+
+.main-input {
+    border: 2px solid #000000;
+    outline: none;
+}
+
+.order__form-input{
+    width: 135px;
+    height: 35px;
+}
+
+.order__form-input::placeholder {
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+   
+    opacity: .9;
+}
+
+.order__submit-button {
+    width: 100%;
+    /*не работает*/
+}
+
 /*......................................*/
 .visually-hidden {
 	position: absolute !important;
