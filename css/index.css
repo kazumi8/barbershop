@@ -315,6 +315,7 @@ a {
 
 .main-footer {
     background-image: url("../img/backgraund-footer.jpg"); 
+    
 }
 
 .main-footer__wrapper {
@@ -325,6 +326,7 @@ a {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .main-footer__info {
@@ -334,6 +336,9 @@ a {
 .main-footer__info-text, .main-footer__social-text, .developers__text {
     line-height: 23px;
     color: #FFFFFF;
+
+    padding: 50px 10px 10px 20px;
+    margin: 0;
 }
 
 .main-footer__info-link {
@@ -379,10 +384,18 @@ a {
     background-color: #000000;
 }
 
+.developers__text {
+    text-align: left;
+}
+
 .developers__wrapper {
     width: 140px;
     height: 43px;
     background-color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .developers__link {
